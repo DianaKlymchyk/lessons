@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  margin: 15px;
+}
+
+.container {
+  margin-top: 15px;
+  padding: 30px;
+}
+
+.gray-text {
+  color: gray;
+}
+
+.title {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.wrapper input {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.wrapper button {
+  width: 110px;
+  background: #7eee7e;
+  border: 1px solid darkslategray;
+  height: 30px;
+}
+
+.wrapper button:hover {
+  cursor: pointer;
+  background: springgreen;
+  border: 1px solid darkslategray;
+}
+
+.wrapper button:active {
+  cursor: pointer;
+  background: palegreen;
+  border: 1px solid green;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+/*.wrapper button:focus {*/
+/*  cursor: pointer;*/
+/*  background: lightgreen;*/
+/*  border: 2px solid green;*/
+/*  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;*/
+/*}*/
+
+.list {
+  padding: 30px 0;
+}
+
+.todo {
+  margin-bottom: 15px;
+}
+
+.todos {
+  background: aliceblue;
+  padding: 15px;
+  border: 1px solid silver;
+}
+
+.block__events {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 0;
+}
+
+.event__div {
+  border: 1px solid green;
+  padding: 30px;
+}
+
+.event__div:hover, .event__btn:hover {
+  cursor: pointer;
+}
+
+.form__content label {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  margin-bottom: 15px;
+}
+
+img {
+  width: 500px;
+  max-width: 100%;
+}

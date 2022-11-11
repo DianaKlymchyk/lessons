@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mentor lesson 1</title>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <div class="wrapper">
+
+      <!-- Add todo block-->
+      <div class="container">
+        <div class="title">To do list</div>
+
+        <label>
+          Enter text:
+          <input value="" type="text">
+        </label>
+
+        <button>Add task</button>
+        <br/><br/>
+
+        <div class="d-flex">
+          <div class="gray-text">Last added task: </div>
+          <div class="text"></div>
+        </div>
+
+      </div>
+
+      <hr/>
+
+      <!-- List block-->
+      <div class="container">
+        <div class="list"></div>
+      </div>
+
+      <hr/>
+
+      <!-- Events block-->
+      <div class="container">
+        <div class="block__events">
+          <div class="event__div">
+            <div class="subtitle">Test event.stopPropagation()</div>
+            <button class="event__btn">Button</button>
+          </div>
+
+          <form>
+            <div class="subtitle">Test event.preventDefault()</div>
+            <div class="form__content">
+              <label>
+                <span>Login:</span>
+                <input type="text">
+              </label>
+
+              <label>
+                <span>Password:</span>
+                <input type="password">
+              </label>
+
+              <button class="submit" type="submit">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <hr/>
+
+      <!-- Image block-->
+      <div class="container">
+          <div class="title">Adaptive img</div>
+          <img src="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png" alt="Cat">
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+
+</html>
