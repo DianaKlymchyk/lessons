@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 15px;
+  font-family: Verdana, sans-serif;
+}
+
+.wrapper {
+  margin: 15px;
+  padding: 30px;
+  max-width: 900px;
+  min-height: calc(100vh - 15px * 2);
+  background: lightblue;
+}
+
+.container {
+  padding: 30px;
+  border: 2px dotted floralwhite;
+  margin-bottom: 30px;
+}
+
+button {
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.container.add-block {
+  display: grid;
+  grid-template-columns: 1fr auto;;
+  gap: 15px;
+}
+
+.add-block span, .add-block button {
+  color: darkslategrey;
+}
+
+.add-block button {
+  color: darkslategrey;
+}
+
+.container.add-block label {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.container.add-block button {
+  width: 200px;
+  height: 45px;
+}
+
+.container.add-block label input {
+  flex: 1 0 auto;
+  height: 42px;
+  border: 1px solid green;
+  font-size: 16px;
+}
+
+.container.add-block label span {
+  font-weight: bold;
+}
+
+.container.list-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+input {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 35px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid forestgreen;
+}
+
+button {
+  height: 35px;
+  width: 110px;
+  background: #7eee7e;
+  border: 1px solid darkslategray;
+}
+
+button:hover {
+  cursor: pointer;
+  background: springgreen;
+  border: 1px solid darkslategray;
+}
+
+button.remove {
+  width: 50px;
+  background: palevioletred;
+  color: white;
+  font-size: 17px;
+}
+
+button.edit {
+  width: 50px;
+  background: darksalmon;
+  color: white;
+  font-size: 17px;
+}
+
+
+input.check {
+  width: 25px;
+  height: 25px;
+}
+
+.list {
+  background: transparent;
+}
+
+.todo {
+  background: lightyellow;
+
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  align-items: center;
+  grid-column-gap: 30px;
+  border: 1px solid #ccc;
+  margin-bottom: 2px;
+  padding: 15px;
+}
+
+.message {
+  color: gray;
+  padding: 20px;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+}
